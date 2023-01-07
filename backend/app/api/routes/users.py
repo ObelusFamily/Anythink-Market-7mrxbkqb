@@ -31,7 +31,6 @@ async def retrieve_current_user(
             bio=user.bio,
             image=user.image,
             token=token,
-            isVerified=user.is_verified,
         ),
     )
 
@@ -70,6 +69,5 @@ async def update_current_user(
             bio=user.bio,
             image=user.image,
             token=token,
-            isVerified=user.is_verified,
         ),
     )
