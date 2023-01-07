@@ -21,7 +21,7 @@ class UserInUpdate(BaseModel):
     password: Optional[str] = None
     bio: Optional[str] = None
     image: Optional[HttpUrl] = None
-    isVerified: bool = False
+    isVerified: Optional[bool] = False
 
 
 class UserWithToken(User):
